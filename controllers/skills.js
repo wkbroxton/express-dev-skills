@@ -2,8 +2,22 @@ const Skill = require('../models/skill');
 
 module.exports = {
     index,
-    show
+    show,
+    new: newSkill,
+    create,
 };
+
+function create(req, res) {
+    // req.body contains the data submitted
+    // in the form
+    console.log(req.body);
+    Todo.create(req.body);
+    res.redirect('/skills');
+}
+
+function newSkill(req, res) {
+    res.render('skills/new');
+  }
 
 function show(req, res) {
     const skill = Skill.getOne(req.params.id);
