@@ -1,13 +1,13 @@
 const skills = [
-    {id: 01, skill: 'HTML', mastered: true},
-    {id: 02, skill: 'JavaScript', mastered: true},
-    {id: 03, skill: 'CSS', mastered: true},
-    {id: 04, skill: 'Git', mastered: true},
-    {id: 05, skill: 'Node', mastered: false},
-    {id: 06, skill: 'Django', mastered: false},
-    {id: 07, skill: 'Python', mastered: false},
-    {id: 08, skill: 'React', mastered: false},
-    {id: 09, skill: 'MERN', mastered: false}
+    {id: 1, skill: 'HTML', mastered: true},
+    {id: 2, skill: 'JavaScript', mastered: true},
+    {id: 3, skill: 'CSS', mastered: true},
+    {id: 4, skill: 'Git', mastered: true},
+    {id: 5, skill: 'Node', mastered: false},
+    {id: 6, skill: 'Django', mastered: false},
+    {id: 7, skill: 'Python', mastered: false},
+    {id: 8, skill: 'React', mastered: false},
+    {id: 9, skill: 'MERN', mastered: false}
   ];
 
   module.exports = {
